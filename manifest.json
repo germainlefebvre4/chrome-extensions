@@ -1,0 +1,11 @@
+{
+  "name": "Right-click Tabs Save",
+  "description": "sample",
+  "version": "0.0.1",
+  "permissions": ["contextMenus", "tabs", "downloads"],
+  "background": {
+    "persistent": false,
+    "scripts": ["main.js"]
+  },
+  "manifest_version": 2
+}
