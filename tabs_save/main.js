@@ -1,5 +1,5 @@
 
-downloadDir = "./DL/Chrome/Zilo/"
+downloadDir = "DL/Chrome/Zilo/"
 
 function basename(path) {
      return path.replace(/.*\//, '');
@@ -38,6 +38,7 @@ function selectedTabs(tabs) {
   tabs.forEach(function(tab) {
     //console.log(tab.url);
     //console.log(basename(tab.url));
+    //console.log(downloadDir);
     chrome.downloads.download(
       {
         url: tab.url,
